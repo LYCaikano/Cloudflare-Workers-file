@@ -82,9 +82,29 @@ class FolderStructure {
 
 // 创建文件夹结构
 const folderStructure = new FolderStructure();
-// const bookFolder = folderStructure.addFolder('Book');//文件夹
-// const tbFolder = folderStructure.addFolder('Three-Body', bookFolder);//book下的子文件夹
-// folderStructure.addFile('test.txt', '改为文件所在URL', tbFolder);//Three-body下的文件
+const bookFolder = folderStructure.addFolder('Book');//文件夹
+const wgFolder = folderStructure.addFolder('十万个为什么20世纪60年代版', bookFolder);//book下的子文件夹
+folderStructure.addFile('十万个为什么01.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么01.pdf', wgFolder);//wg下的文件
+folderStructure.addFile('十万个为什么02.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么02.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么03.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么03.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么04.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么04.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么05.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么05.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么06.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么06.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么07.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么07.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么08.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么08.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么09.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么09.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么10.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么10.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么11.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么11.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么12.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么12.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么13.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么13.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么14.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么14.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么15.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么15.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么16.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么16.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么17.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么17.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么18.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么18.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么19.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么19.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么20.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么20.pdf', wgFolder);//
+folderStructure.addFile('十万个为什么21.pdf', 'http://x99152qi.beget.tech/wp-content/uploads/2024/05/十万个为什么21.pdf', wgFolder);//
 //以上为文件夹结构
 
 addEventListener('fetch', event => {
