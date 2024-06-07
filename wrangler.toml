@@ -1,3 +1,0 @@
-name = "cf-worker-ws-dev" # todo
-main = "_worker.js"
-compatibility_date = "2023-05-26"
