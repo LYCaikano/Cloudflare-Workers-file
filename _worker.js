@@ -146,5 +146,5 @@ function findFolder(folders, name) {
       }
     }
   }
-  return null; 
+  return new Response('Folder not found', { status: 404 }); 
 }
