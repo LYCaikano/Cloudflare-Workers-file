@@ -124,11 +124,13 @@ async function handleRequest(request) {
   if (folderName) {
     // 如果提供了文件夹名称，则查找对应的文件夹
     folder = findFolder(folderStructure.rootFolders, folderName);
+    if (!folder) {
+      return new Response('Folder not found', { status: 404 }); // 未找到文件夹返回404错误
+    }
   } else {
     // 如果没有提供文件夹名称，则使用根文件夹
     folder = folderStructure.rootFolders[0];
   }
-
   const html = folderStructure.generateHTML(folder); // 生成文件夹的HTML
   return html; 
 }
